@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+let worldSize = 7
+let mineCount = 6
+let wm = WorldMap(worldSize: worldSize, mineCount: mineCount)
+
 @main
 struct minesweeperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                wm: wm
+            )
         }
     }
 }
