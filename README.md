@@ -4,4 +4,5 @@ I developed this minesweeper game without reading documentation about Swift and 
 
 No idea why do you need to read it, but here is gameplay. Enjoy
 
+![Gameplay](https://github.com/khyurri/minesweeper/blob/main/gameplay.gif)
 -- paste image here --
